@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify
+from Flask import Flask, request, jsonify
 from flask_cors import CORS
 from cuss_inspect import predict, predict_prob
 
