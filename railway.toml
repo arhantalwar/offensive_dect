@@ -1,0 +1,9 @@
+name = "my-python-server"
+deployment-gateway = "railway"
+
+[build]
+commands = ["pip install -r requirements.txt"]
+
+[start]
+command = "python app.py"
+
